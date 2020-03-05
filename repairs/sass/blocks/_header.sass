@@ -1,0 +1,216 @@
+.header
+    background-image: url(../img/bacground_hero.jpg)
+    background-position: center center
+    background-size: cover
+    padding-bottom: 100px
+
+.navbar
+    &-wrap
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding-top: 25px
+
+    &__adress
+        color: #323131
+        font-size: 24px
+        line-height: 30px
+        letter-spacing: 0.48px  
+    &__phone
+        color: #323131
+        font-size: 30px
+        +medium
+        line-height: 30px
+        letter-spacing: -0.3px
+        margin-left: 15px
+    &__mobile
+        display: flex
+        align-items: center
+        & img
+            margin-top: 5px
+              
+        
+.description
+    display: flex       
+
+.information
+    display: flex
+    justify-content: space-between     
+
+.logo
+    border-right: 1px solid #323131
+    padding-right: 15px
+    margin-right: 15px
+
+
+.logo__text
+    max-width: 216px
+    color: #323131
+    font-size: 24px
+    line-height: 30px
+    letter-spacing: 0.48px
+    margin-top: 7px
+
+.information
+    align-items: center
+
+.contactss
+    text-align: right  
+
+
+.hero-wrap
+    display: flex
+
+h1    
+    max-width: 660px
+    color: #323131
+    font-size: 46px
+    line-height: 54px
+    letter-spacing: 0.92px
+    +medium
+    margin: 170px 0px 30px 0px
+
+.offer_span
+    color: #323131
+    font-size: 36px
+    line-height: 54px
+    letter-spacing: 0.72px    
+    +light
+
+.hero_button
+    width: 410px
+    height: 96px      
+    font-size: 30px
+    margin-top: 145px
+
+.hero_images
+    display: flex
+    width: 43%    
+
+.left-earphone    
+    position: absolute
+    right: 339px
+    top: 170px
+
+.smartphone    
+    position: absolute
+    top: 185px
+    right: 0px
+
+.right-earphone    
+    position: absolute
+    right: 149px
+    bottom: 2px
+
+
+
+
+
+@media ( max-width:1150px)
+    .smartphone
+        width: 50%
+
+    
+@media ( max-width:1050px)
+    .smartphone
+        width: 40%   
+
+
+@media ( max-width:1000px)
+    .hero-wrap
+        flex-direction: column
+        flex-wrap: wrap
+    .left-earphone
+        position: static
+
+    .smartphone
+        top: 45%
+        width: 70%
+        right: 15%
+
+    .hero_button
+        margin-top: 500px    
+
+    .right-earphone    
+        position: static
+
+
+    .hero_images
+        width: 100%      
+
+
+    .left-earphone, .right-earphone   
+        display: none
+
+
+@media ( max-width:800px)
+    .smartphone
+        top: 55%
+
+    .hero_button
+        margin-top: 80%          
+  
+
+
+
+
+@media ( max-width:720px)
+    .logo__text
+        display: none
+
+
+
+
+
+
+@media ( max-width:600px)
+    .smartphone
+        top: 60%
+
+
+
+
+
+
+
+@media ( max-width:500px)
+    header
+        padding-bottom: 60px
+    .navbar__address
+        font-size: 14px
+    .navbar__phone
+        font-size: 15px
+    h1 
+        font-size: 28px
+        line-height: 35px
+        margin: 70px 0px 30px 0px
+    
+    .offer_span
+        font-size: 19px   
+    .smartphone
+        top: 56%
+        
+    .hero_button
+        font-size: 20px
+        height: 76px    
+    .navbar__phone
+        margin-left: auto
+    .logo
+        padding: 0
+        margin: 0              
+
+
+
+
+
+
+@media ( max-width:450px)
+    .hero_button
+        width: 90% 
+    
+
+
+
+
+
+    

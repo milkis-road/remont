@@ -1,0 +1,46 @@
+.footer
+    background-color: #efefef
+    padding: 25px 0   
+    &_wrap
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+
+
+.politic
+    color: #2e73a2
+    font-size: 26px
+    +light
+    line-height: 25px
+    text-decoration: underline
+    letter-spacing: 0.52px
+
+
+.sochial
+    display: flex
+
+.vk 
+    margin-right: 30px    
+
+
+
+@media ( max-width:650px)
+    .sochial img
+        width: 30px
+        height: 30px
+    .politic
+        font-size: 20px    
+
+    
+@media ( max-width:450px)
+    .footer_wrap
+        flex-direction: column
+
+    .logo
+        border-right: none
+
+    .sochial 
+        margin-top: 20px
+    .politic
+        text-align: center    

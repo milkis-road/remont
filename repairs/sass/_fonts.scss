@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'TT Norms Light';
+    src: url('../fonts/TTNorms-Light.eot');
+    src: url('../fonts/TTNorms-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTNorms-Light.woff') format('woff'),
+    url('../fonts/TTNorms-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'TT Norms Regular';
+    src: url('../fonts/TTNorms-Regular.eot');
+    src: url('../fonts/TTNorms-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTNorms-Regular.woff') format('woff'),
+    url('../fonts/TTNorms-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'TT Norms Medium';
+    src: url('../fonts/TTNorms-Medium.eot');
+    src: url('../fonts/TTNorms-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTNorms-Medium.woff') format('woff'),
+    url('../fonts/TTNorms-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin light {
+    font-family: 'TT Norms Light', sans-serif;
+}
+
+@mixin regular {
+    font-family: 'TT Norms Regular', sans-serif;
+}
+
+@mixin medium {
+    font-family: 'TT Norms Medium', sans-serif;
+}

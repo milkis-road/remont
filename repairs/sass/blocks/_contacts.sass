@@ -1,0 +1,74 @@
+.contacts
+    &-block
+        background-color: #fff
+        box-shadow: 0px 6px 19.11px 1.89px rgba(12, 5, 0, 0.32)
+        position: absolute
+        left: 0px
+        top: -550px
+        width: 402px
+        height: 458px
+        padding: 38px 28px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        border-radius: 10px
+        
+
+
+    &__title
+        +medium
+        font-size: 40px
+        line-height: 40px
+        letter-spacing: 0.8px
+
+    &-block_content
+
+    &-block_content__item
+        font-size: 26px
+        +light
+        line-height: 25px
+        letter-spacing: 0.52px
+        padding-bottom: 30px
+        &:nth-child(2)
+            background-image: url(../img/map-icon.png)
+            background-repeat: no-repeat
+            background-position: left top
+            padding-left: 50px
+            
+
+    &__button
+        width: 283px
+        height: 63px
+        font-size: 25px
+        +medium
+        line-height: 22.47px
+        letter-spacing: -0.33px
+
+@media ( max-width:1150px)
+    .contacts-block
+        margin-left: 5%   
+
+
+@media ( max-width:850px)
+    .contacts-block
+        width: 100%
+        border-radius: 0px
+        top: -1065px       
+        margin-left: 0  
+        box-shadow: none
+
+
+@media ( max-width:500px)
+    .contacts-block
+        top: -1000px
+        height: 400px
+    .contacts__title
+        font-size: 28px
+        line-height: 28px
+    .contacts-block_content__item
+        font-size: 18px
+        line-height: 25px
+    .contacts__button 
+        width: 90%
+        height: 63px
+        font-size: 20px              

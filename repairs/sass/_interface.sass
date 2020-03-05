@@ -1,0 +1,58 @@
+html 
+    
+body
+    +light
+    margin: 0
+    padding: 0
+    color: #323131
+    
+
+.button
+    border: none
+    box-shadow: 0px 4px 9.8px 0.2px rgba(12, 5, 0, 0.19)
+    border-radius: 48px
+    background-color: #ffe000 
+    color: #323131
+    line-height: 30px
+    letter-spacing: -0.3px
+    +medium
+    cursor: pointer
+    &:hover
+        background-color: #f4d703
+        box-shadow: 0 4px 17px 0.6px rgba(12, 5, 0, 0.33)
+        
+
+
+
+h1, h2, h3, h4 
+    margin: 0
+
+h2 
+    color: #323131
+    font-size: 40px
+    line-height: 54px
+    letter-spacing: 0.8px    
+    margin-bottom: 118px
+    padding-left: 25px
+    background-image: url(../img/rectangle.png)
+    background-repeat: no-repeat
+    background-position: left center
+    +medium
+
+        
+section
+    padding: 95px 0px 95px 0px
+    &:nth-child(6)
+        padding: 0px
+        
+
+@media ( max-width:500px)
+    h2     
+        font-size: 22px
+        line-height: 27px
+        letter-spacing: 0.8px    
+        margin-bottom: 70px
+        padding-left: 23px 
+
+    section
+        padding: 55px 0px 95px 0px

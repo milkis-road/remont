@@ -1,0 +1,59 @@
+.relations
+    background-color: #efefef
+    &_form
+
+    &__input
+        box-shadow: 0 6px 11px 2px rgba(32, 32, 16, 0.22)
+        border-radius: 10px
+        border: 1px solid #aeaeae
+        background-color: #ffffff
+        font-size: 30px
+        line-height: 30px
+        letter-spacing: -0.3px
+        +regular
+        width: 313px
+        height: 82px
+        padding-left: 30px
+        margin-right: 2%
+
+    &__button
+        width: 366px
+        height: 84px
+        background-color: #ffe000
+        font-size: 30px
+        line-height: 30px
+        letter-spacing: -0.3px
+        +medium
+        position: absolute
+        right: 5%
+
+
+@media ( max-width:1200px)    
+    .relations__input
+        width: 47%
+
+    .relations__button
+        width: 97%
+        margin-top: 40px
+        right: 5%
+        position: static
+
+@media ( max-width:700px)    
+    .relations__input
+        width: 100%
+        margin-top: 20px
+
+    .relations__button
+        width: 100%   
+
+@media ( max-width:500px)  
+    .relations__input
+        font-size: 20px
+        height: 52px
+        &:nth-child(1)
+            margin-top: 0px
+            
+    .relations__button
+        font-size: 20px
+        line-height: 30px
+        height: 60px      
